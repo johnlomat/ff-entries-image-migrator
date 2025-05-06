@@ -21,10 +21,7 @@ This plugin works with the Fluent Forms plugin to automatically process external
 
 The plugin automatically detects the current form ID from the URL when you're viewing a Fluent Forms entries page (e.g., `?page=fluent_forms&route=entries&form_id=5`).
 
-The plugin looks for a field named `product_image` in your form submissions that contains external image URLs. If your field has a different name:
-
-1. Open the file `includes/class-ff-image-processor.php`
-2. Search for instances of `product_image` and replace them with your field name
+The plugin scans all fields in your form submissions to detect image URLs automatically.
 
 ## Usage
 
@@ -47,7 +44,7 @@ This plugin is licensed under the GPL v2 or later.
 
 ## Support
 
-For support, please contact the plugin author.
+For support, please contact the plugin author at https://johnlomat.vercel.app/
 
 ## Changelog
 
